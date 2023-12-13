@@ -1,0 +1,31 @@
+---
+import type { Task } from "../types/Task";
+interface Props {
+  task: Task;
+}
+import { dayjs } from "../utils/dayjs";
+
+const { task } = Astro.props;
+
+const durationTime = dayjs
+  .duration(task.duration_second, "seconds")
+  .format("HH:mm");
+---
+
+<div class="mb-3">
+  <h4 class="font-500">{task.title}</h4>
+  <div class="flex justify-between text-xs mb-2">
+    <div class="flex gap-3">
+      <span
+        >{dayjs(task.start_date).format("HH:mm")} - {
+          dayjs(task.end_date).format("HH:mm")
+        }</span
+      >
+    </div>
+    <p><span>{durationTime}</span></p>
+  </div>
+
+  <div class="flex gap-3">
+    <p class="text-sm">{task.notes}</p>
+  </div>
+</div>

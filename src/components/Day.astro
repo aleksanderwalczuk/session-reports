@@ -1,0 +1,49 @@
+---
+import type { Task as TaskType } from "../types/Task";
+import Task from "./Task.astro";
+import dayjs from "dayjs";
+const weekdays = [
+  "Poniedziałek",
+  "Wtorek",
+  "Środa",
+  "Czwartek",
+  "Piątek",
+  "Sobota",
+  "Niedziela",
+];
+
+interface Props {
+  day: Record<string, TaskType[]>;
+}
+const { day } = Astro.props;
+
+const key = Object.keys(day)[0];
+
+const tasks = day[key].sort(function (a, b) {
+  // Turn your strings into dates, and then subtract them
+  // to get a value that is either negative, positive, or zero.
+  //@ts-ignore
+  return new Date(b.start_date) - new Date(a.start_date);
+});
+const [task] = tasks;
+// console.log({ task });
+
+const dayDate = dayjs(task.start_date);
+---
+
+<section id={dayDate.format("DD-MM-YYYY")} class="my-10">
+  <h2 class="font-semibold text-2xl mb-3">
+    {weekdays[dayDate.day()]} - {dayDate.format("DD-MM-YYYY")}
+  </h2>
+  <div class="">
+    <ol class="list-decimal">
+      {
+        tasks.map((task) => (
+          <li>
+            <Task task={task} />
+          </li>
+        ))
+      }
+    </ol>
+  </div>
+</section>

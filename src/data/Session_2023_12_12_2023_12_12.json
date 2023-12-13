@@ -1,0 +1,218 @@
+[
+  {
+    "category" : {
+      "status" : "active",
+      "id" : "1ED2F576-95B9-46F4-88AB-BEA6F372DABA",
+      "title" : "LP",
+      "hex_color" : "#7D34D9"
+    },
+    "start_date" : "2023-12-12T17:02:33Z",
+    "duration_second" : 1986,
+    "title" : "LP - mv FAQ\/Team\/Footer",
+    "notes" : "mamy różne wersje Vue pomiędzy juo.io i juo.app, w contactForm utiliu brakowało typu MaybeRef, więc wziąłem go z paczki vueuse\/core",
+    "pause_second" : 0,
+    "meta" : [
+
+    ],
+    "type" : "fullFocus",
+    "end_date" : "2023-12-12T17:35:39Z"
+  },
+  {
+    "category" : {
+      "status" : "active",
+      "id" : "1ED2F576-95B9-46F4-88AB-BEA6F372DABA",
+      "title" : "LP",
+      "hex_color" : "#7D34D9"
+    },
+    "start_date" : "2023-12-12T15:11:36Z",
+    "duration_second" : 6459,
+    "title" : "LP - Complete toolkit section",
+    "notes" : "+ przerwa 10min\n\nproblem z responsywnym obrazkiem w astro, nie wiem jak zaimportować więc na razie wrzuciłem tylko x2",
+    "pause_second" : 0,
+    "meta" : [
+
+    ],
+    "type" : "fullFocus",
+    "end_date" : "2023-12-12T16:59:16Z"
+  },
+  {
+    "category" : {
+      "status" : "active",
+      "id" : "1ED2F576-95B9-46F4-88AB-BEA6F372DABA",
+      "title" : "LP",
+      "hex_color" : "#7D34D9"
+    },
+    "start_date" : "2023-12-12T14:56:37Z",
+    "duration_second" : 866,
+    "title" : "LP - adjust card component",
+    "notes" : "+ Fix testimonials list on lg breakpoint\n\nZapytałem Filipa jak mają wyglądać karty pomiędzy 768, a 1024 teraz to źle wygląda. Powiedział że wrócimy do tego",
+    "pause_second" : 0,
+    "meta" : [
+
+    ],
+    "type" : "fullFocus",
+    "end_date" : "2023-12-12T15:11:04Z"
+  },
+  {
+    "category" : {
+      "status" : "active",
+      "id" : "",
+      "title" : "General",
+      "hex_color" : "#D84343"
+    },
+    "start_date" : "2023-12-12T14:40:41Z",
+    "duration_second" : 846,
+    "title" : "Szybki obiad",
+    "notes" : "",
+    "pause_second" : 0,
+    "meta" : [
+
+    ],
+    "type" : "fullFocus",
+    "end_date" : "2023-12-12T14:54:47Z"
+  },
+  {
+    "category" : {
+      "status" : "active",
+      "id" : "B930723C-8CFC-42B4-91B5-E9E33EED64AA",
+      "title" : "bugfix",
+      "hex_color" : "#c81e1e"
+    },
+    "start_date" : "2023-12-12T13:53:25Z",
+    "duration_second" : 2592,
+    "title" : "Oliviere Wilson - remove bold",
+    "notes" : "Fix widget\nUpdate repo",
+    "pause_second" : 0,
+    "meta" : [
+
+    ],
+    "type" : "fullFocus",
+    "end_date" : "2023-12-12T14:36:37Z"
+  },
+  {
+    "category" : {
+      "status" : "active",
+      "id" : "1ED2F576-95B9-46F4-88AB-BEA6F372DABA",
+      "title" : "LP",
+      "hex_color" : "#7D34D9"
+    },
+    "start_date" : "2023-12-12T13:28:19Z",
+    "duration_second" : 1201,
+    "title" : "LP - swap icons",
+    "notes" : "poszedł push na deva",
+    "pause_second" : 0,
+    "meta" : [
+
+    ],
+    "type" : "fullFocus",
+    "end_date" : "2023-12-12T13:48:21Z"
+  },
+  {
+    "category" : {
+      "status" : "active",
+      "id" : "1ED2F576-95B9-46F4-88AB-BEA6F372DABA",
+      "title" : "LP",
+      "hex_color" : "#7D34D9"
+    },
+    "start_date" : "2023-12-12T13:13:08Z",
+    "duration_second" : 940,
+    "title" : "LP - merge fix",
+    "notes" : "",
+    "pause_second" : 0,
+    "meta" : [
+
+    ],
+    "type" : "fullFocus",
+    "end_date" : "2023-12-12T13:28:48Z"
+  },
+  {
+    "category" : {
+      "status" : "active",
+      "id" : "1ED2F576-95B9-46F4-88AB-BEA6F372DABA",
+      "title" : "LP",
+      "hex_color" : "#7D34D9"
+    },
+    "start_date" : "2023-12-12T12:24:05Z",
+    "duration_second" : 2536,
+    "title" : "LP - stretch book a demo",
+    "notes" : "był problem z chowaniem linku features jak book a demo się rozwinie, na razie ustawiłem hidden\n\nSwap placeholderów do preview bo nie działają dziś",
+    "pause_second" : 0,
+    "meta" : [
+
+    ],
+    "type" : "fullFocus",
+    "end_date" : "2023-12-12T13:06:21Z"
+  },
+  {
+    "category" : {
+      "status" : "active",
+      "id" : "",
+      "title" : "General",
+      "hex_color" : "#D84343"
+    },
+    "start_date" : "2023-12-12T12:09:01Z",
+    "duration_second" : 449,
+    "title" : "LP - mobile nav",
+    "notes" : "Fix Book a demo btn",
+    "pause_second" : 0,
+    "meta" : [
+
+    ],
+    "type" : "rest",
+    "end_date" : "2023-12-12T12:16:30Z"
+  },
+  {
+    "category" : {
+      "status" : "active",
+      "id" : "1ED2F576-95B9-46F4-88AB-BEA6F372DABA",
+      "title" : "LP",
+      "hex_color" : "#7D34D9"
+    },
+    "start_date" : "2023-12-12T11:53:38Z",
+    "duration_second" : 916,
+    "title" : "LP - mobile nav",
+    "notes" : "Add active page highlight to mobile navigation\nFix book a demo btn",
+    "pause_second" : 0,
+    "meta" : [
+
+    ],
+    "type" : "fullFocus",
+    "end_date" : "2023-12-12T12:08:55Z"
+  },
+  {
+    "category" : {
+      "status" : "active",
+      "id" : "1ED2F576-95B9-46F4-88AB-BEA6F372DABA",
+      "title" : "LP",
+      "hex_color" : "#7D34D9"
+    },
+    "start_date" : "2023-12-12T11:37:30Z",
+    "duration_second" : 642,
+    "title" : "LP - mobile nav",
+    "notes" : "Wstępne dodanie stanu active i push",
+    "pause_second" : 0,
+    "meta" : [
+
+    ],
+    "type" : "partialFocus",
+    "end_date" : "2023-12-12T11:48:13Z"
+  },
+  {
+    "category" : {
+      "status" : "active",
+      "id" : "1ED2F576-95B9-46F4-88AB-BEA6F372DABA",
+      "title" : "LP",
+      "hex_color" : "#7D34D9"
+    },
+    "start_date" : "2023-12-12T10:19:14Z",
+    "duration_second" : 3464,
+    "title" : "LP - mobile nav",
+    "notes" : "",
+    "pause_second" : 0,
+    "meta" : [
+
+    ],
+    "type" : "fullFocus",
+    "end_date" : "2023-12-12T11:16:59Z"
+  }
+]
